@@ -1,0 +1,17 @@
+{
+    "name": "larabeans/container-installer",
+    "description": "A Composer plugin for installing Larabeans Containers (of type larabeans-container).",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Larabeans\\Installer\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Larabeans\\Installer\\ContainerInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^2.0"
+    }
+}
